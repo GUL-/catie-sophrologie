@@ -30,12 +30,12 @@ const siteConfig = {
   ' Catie Sophrologie',
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
-    theme: 'dracula',
+    theme: 'default',
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   twitter: 'SophroCat',
   facebookAppId: 'catie.sophrologue',
-  gaTrackingId: '123'
+  gaTrackingId: 'UA-37787733-3'
 };
 
 module.exports = siteConfig;
