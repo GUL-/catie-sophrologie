@@ -16,7 +16,7 @@ jobs:
 
     working_directory: ~/catie-sophrologie
 
-    pwd: website
+    pwd: ~/catie-sophrologie/website
 
     steps:
       - checkout
