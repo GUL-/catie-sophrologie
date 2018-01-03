@@ -20,7 +20,7 @@ jobs:
       - checkout
 
       - run:
-          command: cd website
+          command: cd website && pwd
 
       # Download and cache dependencies
       - restore_cache:
