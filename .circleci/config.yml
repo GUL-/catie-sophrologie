@@ -16,10 +16,12 @@ jobs:
 
     working_directory: ~/catie-sophrologie
 
-    pwd: ~/catie-sophrologie/website
-
     steps:
       - checkout
+
+      - run:
+        command: |
+          cd website
 
       # Download and cache dependencies
       - restore_cache:
